@@ -1,0 +1,16 @@
+#!/bin/sh
+set -e
+package_name=biglinux-wallpapers-and-icons
+mkdir -p "/usr/share/dpkgdivert/biglinux-wallpapers-and-icons"
+case "$1" in
+  install)
+    dpkg-divert --package "$package_name" --divert "/usr/share/dpkgdivert/biglinux-wallpapers-and-icons/usrshareiconsbreezeactions22document-print.svg" --rename "/usr/share/icons/breeze/actions/22/document-print.svg"
+    ;;
+  upgrade)
+if [ "$(dpkg-divert --list "/usr/share/icons/breeze/actions/22/document-print.svg")" = "" ]
+then
+    dpkg-divert --package "$package_name" --divert "/usr/share/dpkgdivert/biglinux-wallpapers-and-icons/usrshareiconsbreezeactions22document-print.svg" --rename "/usr/share/icons/breeze/actions/22/document-print.svg"
+fi
+;;
+esac
+exit 0
