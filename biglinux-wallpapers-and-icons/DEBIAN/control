@@ -1,11 +1,11 @@
 Package: biglinux-wallpapers-and-icons
-Version: 1.0.0-1big6
+Version: 1.0.0-1big7
 Depends:
 Architecture: all
 Maintainer: Bruno Goncalves <www.biglinux.com.br>
 Section: admin
 Priority: optional
-Installed-Size:12864
+Installed-Size:12900
 Description: Wallpapers and complementary icons
 
 

@@ -1,14 +1,13 @@
 d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
-ca0c2efea0c115ac1f7474c5a21dd200  DEBIAN/control
 4f2feba193b928a2f0fc6e1932a38ebc  DEBIAN/dpkg-divert
 38e4b24f1c62f6088866e6a4f4d838d2  DEBIAN/preinst
 fe51856b87755cdd5b4bc8df3956b983  DEBIAN/postrm
+8129e616ac6b57b657a5dc24f330f39b  DEBIAN/control
 43b3cb1f2b0ccecabc0f533a8382869d  usr/share/pixmaps/big-launcher.png
 03e4a431975ae29199db4e21dd9e11c0  usr/share/pixmaps/bigcontrolcenter.png
 be5cf4e458a91a02f4659de22d677a61  usr/share/pixmaps/biglinux-blue.png
 cca1f4c2fdcb0b6c2f57a8dab8e1370f  usr/share/pixmaps/biglinux.png
 ae0ac8fd369b1f026b57bfa1f1c973b0  usr/share/pixmaps/biglinux2.png
-95120f15497e5f2457aa139f3f9d8705  usr/share/wallpapers/BigLinux01.jpg
 84b48727eb69ceadadfc559a2c5b8578  usr/share/wallpapers/BigLinux02.jpg
 c2a4021e4190cbab505b46c7a334e86e  usr/share/wallpapers/BigLinux03.jpg
 f370532861da8c06ec7d38faab876e67  usr/share/wallpapers/BigLinux04.jpg
@@ -44,6 +43,7 @@ e2527d1147284fb8678ab3ec5fc64d07  usr/share/wallpapers/drop.jpg
 77b8a15d1d58d23b745b02e5d4fd4263  usr/share/wallpapers/sunset.jpg
 a48d1f0e2edd4f7cc7b6ce585bdcbd7e  usr/share/wallpapers/.directory
 79d1ea7b2e40d291bba4dc50d6f41120  usr/share/wallpapers/seablur.jpg
+312823a1fc5f6c070420bffa8e7265d5  usr/share/wallpapers/BigLinux01.jpg
 ea749973e547bec37319a2cac3ab0aec  usr/share/icons/breeze/apps/16/drive-removable-media-usb.svg
 c2ef90e9659e0e14119704cf218212b7  usr/share/icons/breeze/apps/16/printer.svg
 9eb8ebde09438f6b6b5df07c2aa847b1  usr/share/icons/breeze/apps/22/drive-removable-media-usb.svg
