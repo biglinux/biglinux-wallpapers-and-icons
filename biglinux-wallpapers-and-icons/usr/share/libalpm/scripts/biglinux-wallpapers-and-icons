@@ -1,5 +1,0 @@
-#!/bin/sh
-
-cp -f "/usr/share/icons/breeze/actions/22/document-print-alt.svg" "/usr/share/icons/breeze/actions/22/document-print.svg" 2> /dev/null
-cp -f "/usr/share/icons/breeze/apps/48/application-x-clementine-alt.svg" "/usr/share/icons/breeze/actions/22/document-print.svg" 2> /dev/null
-cp -f "/usr/share/icons/breeze/apps/48/smplayer-alt.svg" "/usr/share/icons/breeze/apps/48/smplayer-alt.svg" "/usr/share/icons/breeze/actions/22/document-print.svg" 2> /dev/null

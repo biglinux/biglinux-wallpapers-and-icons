@@ -5,16 +5,8 @@ pkgver=$(date +%y.%m.%d)
 pkgrel=$(date +%H%M)
 arch=('any')
 license=('GPL')
+depends=('biglinux-wallpapers-with-logo' 'biglinux-wallpapers-legacy' 'biglinux-base-icons' 'extra-biglinux-wallpapers')
 url="https://github.com/biglinux/biglinux-wallpapers-and-icons"
-pkgdesc="Wallpapers and icons to BigLinux"
+pkgdesc="Old package, just install new packages"
 source=("git+https://github.com/biglinux/biglinux-wallpapers-and-icons.git")
 md5sums=(SKIP)
-
-
-package() {
-    cp -r "${srcdir}/biglinux-wallpapers-and-icons/biglinux-wallpapers-and-icons/usr/" "${pkgdir}/"
-    mv "${pkgdir}/usr/share/icons/breeze/actions/22/document-print.svg" "${pkgdir}/usr/share/icons/breeze/actions/22/document-print-alt.svg"
-    mv "${pkgdir}/usr/share/icons/breeze/apps/48/application-x-clementine.svg" "${pkgdir}/usr/share/icons/breeze/actions/22/document-print-alt.svg"
-    mv "${pkgdir}/usr/share/icons/breeze/apps/48/smplayer.svg" "${pkgdir}/usr/share/icons/breeze/actions/22/document-print-alt.svg"
-}
-
